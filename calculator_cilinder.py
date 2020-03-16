@@ -3,12 +3,12 @@ from math import pi
 i = True
 
 while i:
-  h = input("h: ")
-  _h = input("δh: ")
-  D = input("D: ")
-  _D = input("δD: ")
-  d = input("d: ")
-  _d = input("δd: ")
+  h = int(input("h: "))
+  _h = int(input("δh: "))
+  D = int(input("D: "))
+  _D = int(input("δD: "))
+  d = int(input("d: "))
+  _d = int(input("δd: "))
 
   v = (1/4)*pi*(D**2 - d**2)*h
   _v = (1/4)*pi*(2*h*(D*_D + d*_d) + (D**2 - d**2)*_h)

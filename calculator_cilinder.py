@@ -3,6 +3,8 @@ from math import pi
 i = True
 
 while i:
+  print("\nDescribe your measures:\n")
+
   h = float(input("h: "))
   _h = float(input("δh: "))
   D = float(input("D: "))
@@ -15,5 +17,5 @@ while i:
 
   print(v, " +- ", _v)
   
-  if input("Next? [y]/n") == "n":
+  if input("Next? [y]/n\n") == "n":
     i = False

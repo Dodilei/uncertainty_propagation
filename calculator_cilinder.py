@@ -1,3 +1,5 @@
+from math import pi
+
 i = True
 
 while i:

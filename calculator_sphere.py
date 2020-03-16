@@ -3,8 +3,8 @@ from math import pi
 i = True
 
 while i:
-  D = int(input("D: "))
-  _D = int(input("δD: "))
+  D = float(input("D: "))
+  _D = float(input("δD: "))
 
   v = (1/6)*pi*(D**3)
   _v = (1/6)*pi*(3*(D**2)*_D)
